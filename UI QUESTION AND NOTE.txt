@@ -1,0 +1,7 @@
+Q;: What is difference between web application and website ?
+
+Ans: WebApplication -
+        It is  an application or software which run on webserver and can be access by internet or web browser.
+
+     Website-
+        location of web Application on webserver  
