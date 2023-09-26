@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maindoc</title>
+    <style>
+        body{
+            margin: 0;
+            overflow: hidden;
+        }
+        .container{
+            display: flex;
+            height: 100vh;
+            
+            box-shadow: 0 0 10px black;
+            margin: 0px auto;
+        }
+        .leftpannel{
+            width: 25%;
+            background-color: black;
+            
+        }
+        .rightpannel{
+            width: 75%;
+            
+
+        }
+        #left{
+            width: 100%;
+            height: 100%;
+            background-color: black;
+
+        }
+        #right{
+            width: 100%;
+            height: 100%;
+        }
+        iframe{
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="leftpannel">
+            <iframe src="anchor.html" name="leftpannel" id="left"></iframe>
+        </div>
+        <div class="rightpannel">
+            <iframe src="htmldoc.html" name="rightpannel" id="right"></iframe>
+        </div>
+        
+
+    </div>
+</body>
+</html>
