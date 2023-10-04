@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom button</button></title>
+    <script>
+        function createDomButton(){
+            var btnRef = document.createElement("button");
+            var h2Ref = document.createElement("h2");
+            h2Ref.innerText="ui is created by javascript";
+            btnRef.innerText="javascript button";
+            btnRef.style.color="white";
+            btnRef.style.padding="15px 25px";
+            btnRef.style.backgroundColor="darkred";
+            btnRef.style.border="none";
+            btnRef.onclick= function(){
+
+               h2Ref.style.color="green";
+
+            };
+
+
+            document.getElementById("body").appendChild(h2Ref);
+            document.getElementById("body").appendChild(btnRef);
+
+        }
+    </script>
+</head>
+<body id="body">
+    
+        <h2>button element</h2>
+        <button>htmlbutton</button>
+        <button onclick="createDomButton()">create dom button</button>
+    
+</body>
+</html>
