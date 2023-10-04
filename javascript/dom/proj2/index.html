@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script>
+        function classSelector(){
+
+            var paraReference = document.getElementsByClassName("p1");
+            console.log(paraReference);
+            paraReference[1].style.color="red";
+            paraReference[1].style.backgroundColor="black";
+            paraReference[1].style.padding="20px";
+
+
+        }
+
+    </script>
+  </head>
+  <body>
+    <h2>class selector</h2>
+    <p class="p1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quidem
+      facilis praesentium, repellendus ipsum enim atque aliquam, delectus nulla
+      modi sapiente ratione soluta assumenda? Quaerat cum sed magnam dolorem
+      aliquid consequuntur, aperiam, aspernatur commodi rem quibusdam aliquam
+      provident error iusto? Inventore nostrum porro optio? Enim illum vel sunt.
+      Unde, harum?
+    </p>
+    <p class="p1">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum est eos
+      eaque, eveniet nisi pariatur et veritatis aliquam dolor quisquam velit
+      nobis ullam, libero possimus modi id tenetur labore culpa autem, unde
+      dolorum a quis deserunt ex? Distinctio natus voluptates consequatur
+      dolorem, maxime veritatis quasi eum, ipsa repellat dolore odio!
+    </p>
+
+    <p class="p1">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum est eos
+        eaque, eveniet nisi pariatur et veritatis aliquam dolor quisquam velit
+        nobis ullam, libero possimus modi id tenetur labore culpa autem, unde
+        dolorum a quis deserunt ex? Distinctio natus voluptates consequatur
+        dolorem, maxime veritatis quasi eum, ipsa repellat dolore odio!
+      </p>
+
+      <button onclick="classSelector()">select paragraph</button>
+  </body>
+</html>
