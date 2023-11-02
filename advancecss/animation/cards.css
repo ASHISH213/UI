@@ -1,0 +1,25 @@
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.container{
+    width: 270px;
+    padding: 10px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+
+}
+@media only screen and (max-width:480px) {
+    .container1{
+        display: grid;
+        grid-template-columns: 1fr;
+}
+.container{
+    box-shadow: 0 0 10px red;
+}
+}
+
+@media only screen and (min-width:){
+    
+}
